@@ -56,3 +56,177 @@ make: *** [Makefile:121: cmTC_0e2fe/fast] Error 2
 
 
 
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/nicos/develop/cpp/udacity/RoutePlanningProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_56c91/fast && /usr/bin/make -f CMakeFiles/cmTC_56c91.dir/build.make CMakeFiles/cmTC_56c91.dir/build
+make[1]: Entering directory '/home/nicos/develop/cpp/udacity/RoutePlanningProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56c91.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_56c91.dir/src.c.o   -c /home/nicos/develop/cpp/udacity/RoutePlanningProject/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_56c91
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56c91.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_56c91.dir/src.c.o  -o cmTC_56c91 
+/usr/bin/ld: CMakeFiles/cmTC_56c91.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_56c91.dir/build.make:87: cmTC_56c91] Error 1
+make[1]: Leaving directory '/home/nicos/develop/cpp/udacity/RoutePlanningProject/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_56c91/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/nicos/develop/cpp/udacity/RoutePlanningProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dc78e/fast && /usr/bin/make -f CMakeFiles/cmTC_dc78e.dir/build.make CMakeFiles/cmTC_dc78e.dir/build
+make[1]: Entering directory '/home/nicos/develop/cpp/udacity/RoutePlanningProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc78e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_dc78e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dc78e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc78e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_dc78e.dir/CheckFunctionExists.c.o  -o cmTC_dc78e  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_dc78e.dir/build.make:87: cmTC_dc78e] Error 1
+make[1]: Leaving directory '/home/nicos/develop/cpp/udacity/RoutePlanningProject/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_dc78e/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/nicos/develop/cpp/udacity/RoutePlanningProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_217d5/fast && /usr/bin/make -f CMakeFiles/cmTC_217d5.dir/build.make CMakeFiles/cmTC_217d5.dir/build
+make[1]: Entering directory '/home/nicos/develop/cpp/udacity/RoutePlanningProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_217d5.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_217d5.dir/src.c.o   -c /home/nicos/develop/cpp/udacity/RoutePlanningProject/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_217d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_217d5.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_217d5.dir/src.c.o  -o cmTC_217d5 
+/usr/bin/ld: CMakeFiles/cmTC_217d5.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_217d5.dir/build.make:87: cmTC_217d5] Error 1
+make[1]: Leaving directory '/home/nicos/develop/cpp/udacity/RoutePlanningProject/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_217d5/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/nicos/develop/cpp/udacity/RoutePlanningProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7f87b/fast && /usr/bin/make -f CMakeFiles/cmTC_7f87b.dir/build.make CMakeFiles/cmTC_7f87b.dir/build
+make[1]: Entering directory '/home/nicos/develop/cpp/udacity/RoutePlanningProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f87b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_7f87b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7f87b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f87b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_7f87b.dir/CheckFunctionExists.c.o  -o cmTC_7f87b  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_7f87b.dir/build.make:87: cmTC_7f87b] Error 1
+make[1]: Leaving directory '/home/nicos/develop/cpp/udacity/RoutePlanningProject/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_7f87b/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/nicos/develop/cpp/udacity/RoutePlanningProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ccc54/fast && /usr/bin/make -f CMakeFiles/cmTC_ccc54.dir/build.make CMakeFiles/cmTC_ccc54.dir/build
+make[1]: Entering directory '/home/nicos/develop/cpp/udacity/RoutePlanningProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ccc54.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_ccc54.dir/src.c.o   -c /home/nicos/develop/cpp/udacity/RoutePlanningProject/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ccc54
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccc54.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_ccc54.dir/src.c.o  -o cmTC_ccc54 
+/usr/bin/ld: CMakeFiles/cmTC_ccc54.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_ccc54.dir/build.make:87: cmTC_ccc54] Error 1
+make[1]: Leaving directory '/home/nicos/develop/cpp/udacity/RoutePlanningProject/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_ccc54/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/nicos/develop/cpp/udacity/RoutePlanningProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_19ac2/fast && /usr/bin/make -f CMakeFiles/cmTC_19ac2.dir/build.make CMakeFiles/cmTC_19ac2.dir/build
+make[1]: Entering directory '/home/nicos/develop/cpp/udacity/RoutePlanningProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19ac2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_19ac2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_19ac2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19ac2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_19ac2.dir/CheckFunctionExists.c.o  -o cmTC_19ac2  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_19ac2.dir/build.make:87: cmTC_19ac2] Error 1
+make[1]: Leaving directory '/home/nicos/develop/cpp/udacity/RoutePlanningProject/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_19ac2/fast] Error 2
+
+
+

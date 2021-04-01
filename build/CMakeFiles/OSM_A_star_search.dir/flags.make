@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/thirdparty/pugixml/src -isystem /usr/local/include/io2d -isystem /usr/include/cairo -isystem /usr/include/GraphicsMagick 
+CXX_INCLUDES = -I/home/nicos/develop/cpp/udacity/RoutePlanningProject/thirdparty/pugixml/src -isystem /usr/local/include/io2d -isystem /usr/include/cairo -isystem /usr/include/GraphicsMagick 
 

@@ -22,7 +22,7 @@ iosfwd
 string
 -
 
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/main.cpp
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/main.cpp
 optional
 -
 fstream
@@ -36,17 +36,17 @@ string
 io2d.h
 -
 route_model.h
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/route_model.h
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/route_model.h
 render.h
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/render.h
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/render.h
 route_planner.h
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/route_planner.h
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/route_planner.h
 
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/model.cpp
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/model.cpp
 model.h
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/model.h
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/model.h
 pugixml.hpp
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/pugixml.hpp
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/pugixml.hpp
 iostream
 -
 string_view
@@ -58,7 +58,7 @@ algorithm
 assert.h
 -
 
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/model.h
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/model.h
 vector
 -
 unordered_map
@@ -68,27 +68,27 @@ string
 cstddef
 -
 
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/render.cpp
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/render.cpp
 render.h
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/render.h
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/render.h
 iostream
 -
 
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/render.h
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/render.h
 unordered_map
 -
 io2d.h
 -
 route_model.h
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/route_model.h
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/route_model.h
 
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/route_model.cpp
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/route_model.cpp
 route_model.h
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/route_model.h
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/route_model.h
 iostream
 -
 
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/route_model.h
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/route_model.h
 limits
 -
 cmath
@@ -96,17 +96,17 @@ cmath
 unordered_map
 -
 model.h
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/model.h
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/model.h
 iostream
 -
 
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/route_planner.cpp
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/route_planner.cpp
 route_planner.h
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/route_planner.h
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/route_planner.h
 algorithm
 -
 
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/route_planner.h
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/route_planner.h
 iostream
 -
 vector
@@ -114,7 +114,7 @@ vector
 string
 -
 route_model.h
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/route_model.h
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/route_model.h
 
 /usr/include/GraphicsMagick/magick/analyze.h
 magick/image.h

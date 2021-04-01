@@ -314,11 +314,11 @@ iosfwd
 string
 -
 
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/model.cpp
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/model.cpp
 model.h
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/model.h
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/model.h
 pugixml.hpp
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/pugixml.hpp
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/pugixml.hpp
 iostream
 -
 string_view
@@ -330,7 +330,7 @@ algorithm
 assert.h
 -
 
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/model.h
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/model.h
 vector
 -
 unordered_map
@@ -340,13 +340,13 @@ string
 cstddef
 -
 
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/route_model.cpp
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/route_model.cpp
 route_model.h
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/route_model.h
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/route_model.h
 iostream
 -
 
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/route_model.h
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/route_model.h
 limits
 -
 cmath
@@ -354,17 +354,17 @@ cmath
 unordered_map
 -
 model.h
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/model.h
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/model.h
 iostream
 -
 
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/route_planner.cpp
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/route_planner.cpp
 route_planner.h
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/route_planner.h
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/route_planner.h
 algorithm
 -
 
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/route_planner.h
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/route_planner.h
 iostream
 -
 vector
@@ -372,11 +372,11 @@ vector
 string
 -
 route_model.h
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/route_model.h
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/route_model.h
 
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/test/utest_rp_a_star_search.cpp
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/test/utest_rp_a_star_search.cpp
 gtest/gtest.h
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/test/gtest/gtest.h
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/test/gtest/gtest.h
 fstream
 -
 iostream
@@ -386,7 +386,7 @@ optional
 vector
 -
 ../src/route_model.h
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/route_model.h
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/route_model.h
 ../src/route_planner.h
-/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/src/route_planner.h
+/home/nicos/develop/cpp/udacity/RoutePlanningProject/src/route_planner.h
 

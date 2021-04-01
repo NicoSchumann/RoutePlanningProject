@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/thirdparty/pugixml/src -isystem /home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include -isystem /home/nicos/develop/cpp/udacity/CppND-Route-Planning-Project/thirdparty/googletest/googletest 
+CXX_INCLUDES = -I/home/nicos/develop/cpp/udacity/RoutePlanningProject/thirdparty/pugixml/src -isystem /home/nicos/develop/cpp/udacity/RoutePlanningProject/thirdparty/googletest/googletest/include -isystem /home/nicos/develop/cpp/udacity/RoutePlanningProject/thirdparty/googletest/googletest 
 

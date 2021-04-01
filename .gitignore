@@ -1,0 +1,10 @@
+*.o
+*.a
+*.s
+*.osm
+*.swp
+draw.cpp
+test.cpp
+build/
+bin/
+lib/
